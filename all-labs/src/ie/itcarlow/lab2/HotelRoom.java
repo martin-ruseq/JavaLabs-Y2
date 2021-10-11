@@ -2,7 +2,7 @@ package ie.itcarlow.lab2;
 
 //Student Name: 	Marcin Rusiecki
 //Student ID: 		C00263263
-//Date: 			05/10/2021
+//Date: 			07/10/2021
 //Purpose: 
 
 public class HotelRoom 
