@@ -38,7 +38,7 @@ public class HotelRoom
 		return roomNumber;
 	}
 	
-	public String gettyp()
+	public String getTyp()
 	{
 		return roomType;
 	}
