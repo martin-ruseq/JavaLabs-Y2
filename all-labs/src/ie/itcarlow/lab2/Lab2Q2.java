@@ -31,15 +31,15 @@ public class Lab2Q2
 		
 		System.out.println("## Room A ##");
 		System.out.println("Room number: " + roomA.getNumber());
-		System.out.println("Room Type:" + roomA.getTyp());
-		System.out.println("Room Status (0 = vaant ; 1 = occupied): " + roomA.getStatus());
+		System.out.println("Room Type: " + roomA.getTyp());
+		System.out.println("Room Status (0 = vacant ; 1 = occupied): " + roomA.getStatus());
 		System.out.println("Room Nigtly Rate: " + roomA.getRate());
 		System.out.println("");
 
 		System.out.println("## Room B ##");
 		System.out.println("Room number: " + roomB.getNumber());
 		System.out.println("Room Type: " + roomB.getTyp());
-		System.out.println("Room Status (0 = vaant ; 1 = occupied): " + roomB.getStatus());
+		System.out.println("Room Status (0 = vacant ; 1 = occupied): " + roomB.getStatus());
 		System.out.println("Room Nigtly Rate: " + roomB.getRate());
 		System.out.println("");
 		
