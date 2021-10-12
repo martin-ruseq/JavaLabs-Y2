@@ -10,14 +10,14 @@ public class HotelRoom
 	private int	roomNumber;
 	private String roomType;
 	private int roomStatus;
-	private double nightRate;
+	private double roomNightRate;
 	
 	//empty constructor
 	public HotelRoom()								
 	{
 		setNumber(0);	
 		setType("");
-		setStatus(0);
+		setOccupied(0);
 		setRate(0.0);
 	}
 	
@@ -26,7 +26,7 @@ public class HotelRoom
 	{
 		setNumber(num);
 		setType(type);
-		setStatus(stat);
+		setOccupied(stat);
 		setRate(rate);
 	}
 	
@@ -42,14 +42,14 @@ public class HotelRoom
 		roomType = type;
 	}
 	
-	public void setStatus (int stat)
+	public void setOccupied (int stat)
 	{
 		roomStatus = stat;
 	}
 	
 	public void setRate (double rate)
 	{
-		nightRate = rate;
+		roomNightRate = rate;
 	}
 	
 	//Getters
@@ -63,13 +63,25 @@ public class HotelRoom
 		return roomType;
 	}
 	
-	public int getStatus()
+	public int getOccupied()
 	{
 		return roomStatus;
 	}
 	
 	public double getRate()
 	{
-		return nightRate;
+		return roomNightRate;
+	}
+	
+	public boolean isOccupied()
+	{
+		if (roomStatus == 1)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
 	}
 }

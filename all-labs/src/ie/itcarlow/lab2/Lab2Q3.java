@@ -17,7 +17,7 @@ public class Lab2Q3
 		System.out.println("## Room C ##");
 		System.out.println("Room number: " + roomC.getNumber());
 		System.out.println("Room Type: " + roomC.getTyp());
-		System.out.println("Room Status (0 = vacant ; 1 = occupied): " + roomC.getStatus());
+		System.out.println("Room Status (0 = vacant ; 1 = occupied): " + roomC.getOccupied());
 		System.out.println("Room Nigtly Rate: " + roomC.getRate());
 		System.out.println("");
 	}
