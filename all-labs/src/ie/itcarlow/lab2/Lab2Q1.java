@@ -23,8 +23,15 @@ public class Lab2Q1
 		roomB.setNumber(201);
 		roomB.setType("Double");
 		
-		System.out.println("roomA " + "(room number is " + roomA.getNumber() + ", type is " + roomA.getTyp() + ")");
-		System.out.println("roomB " + "(room number is " + roomB.getNumber() + ", type is " + roomB.getTyp() + ")");
+		System.out.println("## Room A ##");
+		System.out.println("Room number: " + roomA.getNumber());
+		System.out.println("Room Type:" + roomA.getTyp());
+		System.out.println("");
+
+		System.out.println("## Room B ##");
+		System.out.println("Room number: " + roomB.getNumber());
+		System.out.println("Room Type:" + roomB.getTyp());
+		System.out.println("");
 		
 	}
 
