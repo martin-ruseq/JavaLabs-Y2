@@ -9,6 +9,8 @@ public class Rectangle
 {
 		private double length;
 		private double width;
+		private double area;
+		private double perimeter;
 		
 		public Rectangle()
 		{
@@ -33,7 +35,6 @@ public class Rectangle
 			{
 				length = l;
 			}
-			
 		}
 		
 		public void setWidth(double w)
@@ -46,8 +47,8 @@ public class Rectangle
 			{
 				width = w;
 			}
-			
 		}
+
 		
 		//getters
 		public double getLength()
@@ -60,13 +61,36 @@ public class Rectangle
 			return width;
 		}
 		
-		//
+		public double getArea()
+		{
+			area = (length * width);
+			
+			return area;		
+		}
+		
+		public double getPerimeter()
+		{
+			perimeter = (2 * length) + (2 * width);
+			
+			return perimeter;
+		}
+		
+		//toString
 		public String toString()
 		{
 			String myString;
 			
-			myString = "Length = " + length + ", Width = " + width;
+			myString = "";
+			myString += "\n Length: " + length; 
+			myString += "\n Width: " + width;
+			myString += "\n Area: " + getArea();
+			myString += "\n Perimeter: " + getPerimeter();
 			
 			return myString;
 		}
+		
+
+		
+		
+		
 }
