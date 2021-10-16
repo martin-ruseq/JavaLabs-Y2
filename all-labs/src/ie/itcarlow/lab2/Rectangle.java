@@ -75,6 +75,50 @@ public class Rectangle
 			return perimeter;
 		}
 		
+		public String printRectangle()
+		{
+			int index;
+			int index2;
+			String figure;
+			
+			figure = "";
+			
+			for (index = 0; index < width; index ++)
+			{
+				
+				figure += "* ";
+			
+			}
+			for (index = 0; index < length - 1; index ++)
+			{
+				
+				figure += "\n*";
+				for (index2= 0 ; index2 < width ; index2 ++)
+				{
+					if (index2 > 0 &&  index < length - 2)
+					{
+						figure += "  ";
+						
+						if (index2 == width -2)
+						{
+							figure +=" *";
+						}
+					}
+					
+				}
+				
+			}
+			
+			for (index = 0; index < width - 1; index ++)
+			{
+				
+				figure += " *";
+				
+			}
+			
+			return figure;
+		}
+		
 		//toString
 		public String toString()
 		{
@@ -84,7 +128,7 @@ public class Rectangle
 			myString += "\n Length: " + length; 
 			myString += "\n Width: " + width;
 			myString += "\n Area: " + getArea();
-			myString += "\n Perimeter: " + getPerimeter();
+			myString += "\n Perimeter: " + getPerimeter() + "\n";
 			
 			return myString;
 		}
