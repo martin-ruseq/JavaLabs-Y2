@@ -1,6 +1,8 @@
 package ie.itcarlow.lab3;
 
-
+//Student Name: 	Marcin Rusiecki
+//Student ID: 		C00263263
+//Date: 			19/10/2021
 
 public class Lab3aQ3 
 {

@@ -1,5 +1,9 @@
 package ie.itcarlow.lab3;
 
+//Student Name: 	Marcin Rusiecki
+//Student ID: 		C00263263
+//Date: 			19/10/2021
+
 import java.util.Calendar;
 
 public class Clock 
