@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package ie.itcarlow.lab5;
 
 //Student Name: 	Marcin Rusiecki
@@ -18,3 +19,25 @@ public class MyFirstCircle
 	}
 
 }
+=======
+package ie.itcarlow.lab5;
+
+//Student Name: 	Marcin Rusiecki
+//Student ID: 		C00263263
+//Date: 			03/11/2021
+
+public class MyFirstCircle
+{
+
+	public static void main(String[] args)
+	{
+		Point myPoint = new Point(10, 20);
+		Circle myCircle = new Circle(15, 30, 5);
+		
+		System.out.println("Point details : " + myPoint);
+		System.out.println("Circle details: " + myCircle);
+		
+	}
+
+}
+>>>>>>> branch 'master' of https://github.com/martin-ruseq/all-labs.git
