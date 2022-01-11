@@ -7,8 +7,8 @@ package ie.itcarlow.lab9;
 public interface ImportDuty
 {
 	//constants
-	final double CARTAXRATE = 0.10;
-	final double HGVTAXRATE = 0.15;
+	double CARTAXRATE = 0.10;
+	double HGVTAXRATE = 0.15;
 	
 	//method
 	double calculateDuty();
