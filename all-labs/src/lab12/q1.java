@@ -13,9 +13,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
-import java.awt.Component;
 import javax.swing.SwingConstants;
-import java.awt.ComponentOrientation;
 
 
 // Student Name:	Marcin Rusiecki
