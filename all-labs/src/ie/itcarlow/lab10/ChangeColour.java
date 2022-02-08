@@ -1,4 +1,4 @@
-package lab10;
+package ie.itcarlow.lab10;
 
 //Student Name:		Marcin Rusiecki
 //Student ID:		C00263263

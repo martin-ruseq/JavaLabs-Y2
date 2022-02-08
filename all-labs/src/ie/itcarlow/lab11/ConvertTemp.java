@@ -1,4 +1,4 @@
-package lab11;
+package ie.itcarlow.lab11;
 
 //Converts a Fahrenheit temperature entered by the user to Celsius, or vice versa
 

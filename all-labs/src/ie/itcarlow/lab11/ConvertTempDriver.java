@@ -1,4 +1,4 @@
-package lab11;
+package ie.itcarlow.lab11;
 
 import javax.swing.JFrame;
 
