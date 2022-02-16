@@ -1,4 +1,4 @@
-package ie.itcarlow.ie.lab13;
+package ie.itcarlow.lab13;
 
 import java.awt.EventQueue;
 import javax.swing.JFrame;
